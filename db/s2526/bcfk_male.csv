@@ -15,7 +15,7 @@ gender_place,first_name,last_name,age,age_advantage_event_points
 14,Max,Johnson,27,87.0
 15,Peter,Coenen,39,86.0
 16,Josh,Albrecht,26,85.0
-22,Andrew,Schakel,51,85.0
+22,Andy,Schakel,51,85.0
 17,Dennis,Curran,43,84.0
 18,Patrick,Horst,43,83.0
 19,Louis,Sirota,37,82.0
@@ -66,7 +66,7 @@ gender_place,first_name,last_name,age,age_advantage_event_points
 61,Joseph,Dubay,35,40.0
 63,Ben,Schmiege,43,38.0
 66,Devin,Arenz,48,38.0
-64,Zachariah,Pannkuk,25,37.0
+64,Zack,Pannkuk,25,37.0
 92,Jim,Williams,62,37.0
 67,Dave,Joda,33,34.0
 68,Adam,Mahar,32,32.99999999999999

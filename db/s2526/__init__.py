@@ -26,10 +26,11 @@ TEAM_NAME_COL = 'Team Name:'
 
 def _expand_team_row(r):
     team_name = r[TEAM_NAME_COL]
+    member_count = (len(r) - 1) // 2
     name_columns = ['Team captain/representative name:', '2nd team member name', '3rd team member name'] + \
-                   [f'{i}th team member name' for i in range(4, 11)]
+                   [f'{i}th team member name' for i in range(4, member_count+1)]
     gender_columns = ['Team captain gender', '2nd team member gender', '3rd team member gender'] + \
-                     [f'{i}th team member gender' for i in range(4, 11)]
+                     [f'{i}th team member gender' for i in range(4, member_count+1)]
 
     member_tups = []
     for i in range(len(name_columns)):
